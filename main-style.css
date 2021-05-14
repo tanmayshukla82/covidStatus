@@ -1,0 +1,109 @@
+#header{
+                
+    width: 100%;
+    height: 100px;
+    background-color: #343A40;
+    position:sticky;
+}
+body{
+    margin: 0;
+    background: #F2F5F5;
+}
+.container
+{
+    max-width: 1080px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+    padding: 33px;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+#heading
+{
+    font-family:'Lobster';
+    padding: 30px ;
+    padding-left: 15%;
+    float: left;
+    font-size: 25px;
+    color: #D1CA36;
+    text-decoration: none;
+}
+#precaution
+{
+    float:right;
+    color: white;
+    padding:35px;
+    padding-right: 15%;
+    text-decoration: none;
+}
+#symptoms
+{
+    float:right;
+    color:white;
+    padding:35px;
+    margin-right: -20px;
+    text-decoration: none;
+}
+#symptoms:hover{
+    color:#D1CA36;
+}
+#precaution:hover{
+    color:#D1CA36;
+}
+.title{
+    text-align: center;
+}
+.world_stat
+{
+    width: 100%;
+    background: white;
+    border-radius: 6px;
+
+}
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+td{
+    border-right: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+td:last-child
+{
+    border-right: none;
+}
+.color_recovered
+{
+    color: green;
+}
+.color_deaths
+{
+    color:red;
+}
+.color_cases
+{
+    color: #ff523b;
+}
+.bold
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.title-2
+{
+    text-align: center;
+}
+#state_font
+{
+    font-size: 14px;
+}
